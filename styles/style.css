@@ -1,8 +1,106 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+* {
+  font-family: "Verdana";
+}
+
+.spotify-logo {
+  width: 120px;
+  display: flex;
+  align-items: flex-start;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vh;
+  align-items: center;
+}
+header > div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+li {
+  margin-right: 2vh;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 60vh;
+  background-image: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-spotify-clone/master/images/landing.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+p {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #00b172;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1vh;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+}
+.underline {
+  padding: 10px;
+  border-bottom: 4px solid #00b172;
+}
+
+.all-services-box {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4vh;
+  margin-right: 4vh;
+}
+
+.individual-services-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8vh;
+  width: 25%;
+}
+
+div > img {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 35%;
+}
